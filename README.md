@@ -24,6 +24,19 @@
 +++Cargo.toml
 
 ```
+## Example 'settings.json'
+```bash
+{
+  "rust-analyzer.linkedProjects": [
+    "chapter_2/ch2_1/Cargo.toml",
+    "chapter_2/ch2_2/Cargo.toml",
+    "chapter_2/ch2_3/Cargo.toml",
+    "chapter_2/ch2_hw/Cargo.toml"
+  ]
+}
+```
+
+
 ## Example Usage
 ```bash
 # git clone this repository into ~/scripts/rust
